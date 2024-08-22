@@ -1,0 +1,178 @@
+db.bestellungen.insertMany([
+  {
+    "_id": ObjectId("6309b356af3b9b3b4e83df01"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "Datum": new Date("2024-03-01T09:00:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b2e1af3b9b3b4e83def2"),
+        "Menge": 1,
+        "Preis": 1150000
+      }
+    ],
+    "Gesamtpreis": 1150000,
+    "Lieferadresse": {
+      "Strasse": "Musterstrasse 1",
+      "Stadt": "Musterstadt",
+      "PLZ": "1234",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b35baf3b9b3b4e83df02"),
+    "KundenID": ObjectId("6309b312af3b9b3b4e83def4"),
+    "Datum": new Date("2024-03-02T14:30:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b31daf3b9b3b4e83def6"),
+        "Menge": 1,
+        "Preis": 2750000
+      }
+    ],
+    "Gesamtpreis": 2750000,
+    "Lieferadresse": {
+      "Strasse": "Bahnhofstrasse 10",
+      "Stadt": "Zürich",
+      "PLZ": "8001",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b360af3b9b3b4e83df03"),
+    "KundenID": ObjectId("6309b317af3b9b3b4e83def5"),
+    "Datum": new Date("2024-03-03T11:45:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b322af3b9b3b4e83def7"),
+        "Menge": 2,
+        "Preis": 875000
+      }
+    ],
+    "Gesamtpreis": 1750000,
+    "Lieferadresse": {
+      "Strasse": "Rue de Lausanne 25",
+      "Stadt": "Genf",
+      "PLZ": "1201",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b365af3b9b3b4e83df04"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "Datum": new Date("2024-03-04T16:00:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b33daf3b9b3b4e83defc"),
+        "Menge": 1,
+        "Preis": 795000
+      }
+    ],
+    "Gesamtpreis": 795000,
+    "Lieferadresse": {
+      "Strasse": "Musterstrasse 1",
+      "Stadt": "Musterstadt",
+      "PLZ": "1234",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b36aaf3b9b3b4e83df05"),
+    "KundenID": ObjectId("6309b312af3b9b3b4e83def4"),
+    "Datum": new Date("2024-03-05T10:15:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b342af3b9b3b4e83defd"),
+        "Menge": 1,
+        "Preis": 1535000
+      }
+    ],
+    "Gesamtpreis": 1535000,
+    "Lieferadresse": {
+      "Strasse": "Bahnhofstrasse 10",
+      "Stadt": "Zürich",
+      "PLZ": "8001",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b36faf3b9b3b4e83df06"),
+    "KundenID": ObjectId("6309b317af3b9b3b4e83def5"),
+    "Datum": new Date("2024-03-06T12:30:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b347af3b9b3b4e83defe"),
+        "Menge": 1,
+        "Preis": 904000
+      }
+    ],
+    "Gesamtpreis": 904000,
+    "Lieferadresse": {
+      "Strasse": "Rue de Lausanne 25",
+      "Stadt": "Genf",
+      "PLZ": "1201",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b374af3b9b3b4e83df07"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "Datum": new Date("2024-03-07T18:45:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b34caf3b9b3b4e83deff"),
+        "Menge": 2,
+        "Preis": 565000
+      }
+    ],
+    "Gesamtpreis": 1130000,
+    "Lieferadresse": {
+      "Strasse": "Musterstrasse 1",
+      "Stadt": "Musterstadt",
+      "PLZ": "1234",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b379af3b9b3b4e83df08"),
+    "KundenID": ObjectId("6309b312af3b9b3b4e83def4"),
+    "Datum": new Date("2024-03-08T13:20:00Z"),
+    "Produkte": [
+      {
+        "ProduktID": ObjectId("6309b351af3b9b3b4e83df00"),
+        "Menge": 1,
+        "Preis": 1980000
+      }
+    ],
+    "Gesamtpreis": 1980000,
+    "Lieferadresse": {
+      "Strasse": "Bahnhofstrasse 10",
+      "Stadt": "Zürich",
+      "PLZ": "8001",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b37eaf3b9b3b4e83df09"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "Datum": new Date("2024-03-09T15:00:00Z"),
+    "Produkte": [
+        {
+        "ProduktID": ObjectId("6309b33daf3b9b3b4e83defc"), 
+        "Menge": 1,
+        "Preis": 795000
+        },
+        {
+        "ProduktID": ObjectId("6309b351af3b9b3b4e83df00"), 
+        "Menge": 2,
+        "Preis": 1980000
+        }
+    ],
+    "Gesamtpreis": 3755000,
+    "Lieferadresse": {
+        "Strasse": "Musterstrasse 2",
+        "Stadt": "Musterstadt",
+        "PLZ": "1235",
+        "Land": "Schweiz"
+    }
+  }
+]);

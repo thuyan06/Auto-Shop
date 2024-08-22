@@ -1,0 +1,27 @@
+// Erstellung der Datenbank "autohaus"
+use autohaus;
+
+// Erstellung der Collections mit expliziten Einstellungen (falls benötigt)
+db.createCollection("kunden");
+db.createCollection("produkte");
+db.createCollection("bestellungen");
+db.createCollection("bewertungen");
+
+// Erstellung von Indizes für die Collections
+
+// Kunden
+db.kunden.createIndex({"E-Mail": 1}, {unique: true});
+db.kunden.createIndex({"Name": 1});
+
+// Produkte
+db.produkte.createIndex({"Name": 1});
+db.produkte.createIndex({"Kategorie": 1});
+
+// Bestellungen
+db.bestellungen.createIndex({"KundenID": 1});
+db.bestellungen.createIndex({"Datum": 1});
+
+// Bewertungen
+db.bewertungen.createIndex({"KundenID": 1});
+db.bewertungen.createIndex({"ProduktID": 1});
+db.bewertungen.createIndex({"Sternebewertung": -1}); // Negative für absteigende Sortierung

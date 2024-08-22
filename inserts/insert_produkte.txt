@@ -1,0 +1,74 @@
+db.produkte.insertMany([
+  {
+    "_id": ObjectId("6309b2e1af3b9b3b4e83def2"),
+    "Name": "Pfister Comet SR",
+    "Beschreibung": "Ein schneller und wendiger Sportwagen.",
+    "Preis": 1150000,
+    "Kategorie": "Sport"
+  },
+  {
+    "_id": ObjectId("6309b31daf3b9b3b4e83def6"),
+    "Name": "Overflod Entity XXR",
+    "Beschreibung": "Ein exquisites Stück Ingenieurskunst, das Geschwindigkeitsgrenzen neu definiert.",
+    "Preis": 2750000,
+    "Kategorie": "Super"
+  },
+  {
+    "_id": ObjectId("6309b322af3b9b3b4e83def7"),
+    "Name": "Lampadati Viseris",
+    "Beschreibung": "Ein klassischer Sportwagen, der Eleganz und Leistung vereint.",
+    "Preis": 875000,
+    "Kategorie": "Sport Klassiker"
+  },
+  {
+    "_id": ObjectId("6309b33daf3b9b3b4e83defc"),
+    "Name": "Karin Sultan RS",
+    "Beschreibung": "Ein zuverlässiger und schneller Wagen für den Alltag und die Rennstrecke.",
+    "Preis": 795000,
+    "Kategorie": "Sport"
+  },
+  {
+    "_id": ObjectId("6309b342af3b9b3b4e83defd"),
+    "Name": "Dewbauchee Vagner",
+    "Beschreibung": "Spitzenleistung und futuristisches Design vereint in einem Superwagen.",
+    "Preis": 1535000,
+    "Kategorie": "Super"
+  },
+  {
+    "_id": ObjectId("6309b347af3b9b3b4e83defe"),
+    "Name": "Annis Elegy Retro Custom",
+    "Beschreibung": "Eine Hommage an die Rennwagen der 90er, perfekt für Nostalgiker.",
+    "Preis": 904000,
+    "Kategorie": "Sport Klassiker"
+  },
+  {
+    "_id": ObjectId("6309b34caf3b9b3b4e83deff"),
+    "Name": "Vapid Ellie",
+    "Beschreibung": "Ein Muscle Car, das mit seinem brachialen Sound und der Power begeistert.",
+    "Preis": 565000,
+    "Kategorie": "Muscle"
+  },
+  {
+    "_id": ObjectId("6309b351af3b9b3b4e83df00"),
+    "Name": "Cheval Taipan",
+    "Beschreibung": "Hochgeschwindigkeits-Supercar, das keine Wünsche offen lässt.",
+    "Preis": 1980000,
+    "Kategorie": "Super"
+  },
+    {
+    _id: ObjectId("6309b3f2af3b9b3b4e83df12"),
+    Name: "Banshee 900R",
+    Beschreibung: "Ein Klassiker, der mit seinem kraftvollen Motor und seinem auffälligen Design die Herzen von Sportwagenfans höherschlagen lässt.",
+    Preis: 565000,
+    Kategorie: "Sportwagen",
+    Farbe: "Rot",
+    Grösse: "Mittel"
+  },
+  {
+    _id: ObjectId("6309b3f9af3b9b3b4e83df13"),
+    Name: "T20",
+    Beschreibung: "Eine Meisterleistung moderner Ingenieurskunst, die mit atemberaubender Geschwindigkeit und innovativer Technologie überzeugt.",
+    Preis: 2200000,
+    Kategorie: "Supersportwagen"
+  }
+]);

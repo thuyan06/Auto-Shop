@@ -1,0 +1,90 @@
+db.kunden.insertMany([
+  {
+    "_id": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "Name": "Max Mustermann",
+    "E-Mail": "max@mustermann.ch",
+    "Lieferadresse": {
+      "Strasse": "Musterstrasse 1",
+      "Stadt": "Musterstadt",
+      "PLZ": "1234",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b312af3b9b3b4e83def4"),
+    "Name": "Julia Müller",
+    "E-Mail": "julia@mueller.ch",
+    "Lieferadresse": {
+      "Strasse": "Bahnhofstrasse 10",
+      "Stadt": "Zürich",
+      "PLZ": "8001",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b317af3b9b3b4e83def5"),
+    "Name": "Erik Weber",
+    "E-Mail": "erik@weber.ch",
+    "Lieferadresse": {
+      "Strasse": "Rue de Lausanne 25",
+      "Stadt": "Genf",
+      "PLZ": "1201",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b2deaf3b9b3b4e83def7"),
+    "Name": "Anna Braun",
+    "E-Mail": "anna@braun.ch",
+    "Lieferadresse": {
+      "Strasse": "Lange Gasse 88",
+      "Stadt": "Basel",
+      "PLZ": "4052",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b312af3b9b3b4e83def8"),
+    "Name": "Tobias Schwarz",
+    "E-Mail": "tobias@schwarz.ch",
+    "Lieferadresse": {
+      "Strasse": "Schlossallee 1",
+      "Stadt": "Bern",
+      "PLZ": "3001",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b317af3b9b3b4e83def9"),
+    "Name": "Lena Zimmermann",
+    "E-Mail": "lena@zimmermann.ch",
+    "Lieferadresse": {
+      "Strasse": "Forstweg 2",
+      "Stadt": "Winterthur",
+      "PLZ": "8400",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b2deaf3b9b3b4e83defa"),
+    "Name": "Sara Schmidt",
+    "E-Mail": "sara@schmidt.ch",
+    "Lieferadresse": {
+      "Strasse": "Seeuferweg 12",
+      "Stadt": "Luzern",
+      "PLZ": "6003",
+      "Land": "Schweiz"
+    }
+  },
+  {
+    "_id": ObjectId("6309b312af3b9b3b4e83defb"),
+    "Name": "Oliver Meier",
+    "E-Mail": "oliver@meier.ch",
+    "Lieferadresse": {
+      "Strasse": "Kapellenweg 7",
+      "Stadt": "Bern",
+      "PLZ": "3005",
+      "Land": "Schweiz"
+    }
+  }
+]);

@@ -1,0 +1,58 @@
+db.bewertungen.insertMany([
+  {
+    "_id": ObjectId("6309b3b5af3b9b3b4e83df0a"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "ProduktID": ObjectId("6309b33daf3b9b3b4e83defc"),
+    "Sternebewertung": 5,
+    "Text": "Fantastisches Fahrerlebnis, würde ich definitiv empfehlen!"
+  },
+  {
+    "_id": ObjectId("6309b3bcaf3b9b3b4e83df0b"),
+    "KundenID": ObjectId("6309b312af3b9b3b4e83def4"),
+    "ProduktID": ObjectId("6309b341af3b9b3b4e83defd"),
+    "Sternebewertung": 4,
+    "Text": "Sehr gutes Auto, aber der Preis ist ein bisschen hoch."
+  },
+  {
+    "_id": ObjectId("6309b3c2af3b9b3b4e83df0c"),
+    "KundenID": ObjectId("6309b317af3b9b3b4e83def5"),
+    "ProduktID": ObjectId("6309b345af3b9b3b4e83dfe1"),
+    "Sternebewertung": 3,
+    "Text": "Gutes Auto, aber ich hatte einige Probleme mit dem Service."
+  },
+  {
+    "_id": ObjectId("6309b3c9af3b9b3b4e83df0d"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "ProduktID": ObjectId("6309b349af3b9b3b4e83dfe4"),
+    "Sternebewertung": 5,
+    "Text": "Das Auto hat meine Erwartungen übertroffen, absolut empfehlenswert!"
+  },
+  {
+    "_id": ObjectId("6309b3d0af3b9b3b4e83df0e"),
+    "KundenID": ObjectId("6309b312af3b9b3b4e83def4"),
+    "ProduktID": ObjectId("6309b34daf3b9b3b4e83dfe7"),
+    "Sternebewertung": 4,
+    "Text": "Tolles Auto für den Preis, ich bin sehr zufrieden."
+  },
+  {
+    "_id": ObjectId("6309b3d7af3b9b3b4e83df0f"),
+    "KundenID": ObjectId("6309b317af3b9b3b4e83def5"),
+    "ProduktID": ObjectId("6309b351af3b9b3b4e83df00"),
+    "Sternebewertung": 2,
+    "Text": "Nicht so toll wie erwartet, hatte ein paar Probleme damit."
+  },
+  {
+    "_id": ObjectId("6309b3deaf3b9b3b4e83df10"),
+    "KundenID": ObjectId("6309b2deaf3b9b3b4e83def1"),
+    "ProduktID": ObjectId("6309b355af3b9b3b4e83df03"),
+    "Sternebewertung": 5,
+    "Text": "Ein Traumauto, kann es nur jedem empfehlen!"
+  },
+  {
+    "_id": ObjectId("6309b3e5af3b9b3b4e83df11"),
+    "KundenID": ObjectId("6309b312af3b9b3b4e83def4"),
+    "ProduktID": ObjectId("6309b359af3b9b3b4e83df06"),
+    "Sternebewertung": 3,
+    "Text": "Ganz ok, aber es gibt bessere Autos in dieser Preisklasse."
+  }
+]);
